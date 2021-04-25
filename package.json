@@ -1,0 +1,23 @@
+{
+  "name": "test-git-fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "tsc src/index.ts --outDir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/test-git-fetch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pnpm/test-git-fetch/issues"
+  },
+  "homepage": "https://github.com/pnpm/test-git-fetch#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
