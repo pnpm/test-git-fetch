@@ -23,5 +23,8 @@
   "homepage": "https://github.com/pnpm/test-git-fetch#readme",
   "devDependencies": {
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.2.6"
   }
 }

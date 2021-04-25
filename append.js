@@ -1,5 +1,5 @@
 'use strict'
-const fs = require('fs')
+const fs = require('graceful-fs')
 
 const fn = 'output.json'
 let output

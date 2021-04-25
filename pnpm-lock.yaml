@@ -1,12 +1,20 @@
 lockfileVersion: 5.3
 
 specifiers:
+  graceful-fs: ^4.2.6
   typescript: ^4.2.4
+
+dependencies:
+  graceful-fs: 4.2.6
 
 devDependencies:
   typescript: 4.2.4
 
 packages:
+
+  /graceful-fs/4.2.6:
+    resolution: {integrity: sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==}
+    dev: false
 
   /typescript/4.2.4:
     resolution: {integrity: sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==}
