@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "tsc src/index.ts --outDir dist"
+    "prepare": "tsc src/index.ts --outDir dist && node append prepare",
+    "prepublishOnly": "node append prepublishOnly",
+    "preinstall": "node append preinstall",
+    "install": "node append install",
+    "postinstall": "node append postinstall"
   },
   "repository": {
     "type": "git",
